@@ -20,7 +20,7 @@ TBitField::TBitField(int len) : BitLen(len)
         else MemLen = BitLen / (8 * sizeof(TELEM)) + 1;
         pMem = new TELEM[MemLen]{ 0 };
     }
-  // else throw length_error("Incorrect lenght!");
+  else throw length_error("Incorrect lenght!");
 }
 
 TBitField::TBitField(const TBitField &bf) // конструктор копирования
