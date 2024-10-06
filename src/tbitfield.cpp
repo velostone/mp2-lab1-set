@@ -7,6 +7,7 @@
 
 #include "tbitfield.h"
 #include <string>
+#include <algorithm>
 
 // Fake variables used as placeholders in tests
 static const int FAKE_INT = -1;
